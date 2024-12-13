@@ -14,7 +14,12 @@
         make run
     ```
 
-3. Deletes virtual enviroment
+3. Run tests
+    ```sh
+        make test
+    ```
+    
+4. Deletes virtual enviroment
 
     ```sh
         make clean
