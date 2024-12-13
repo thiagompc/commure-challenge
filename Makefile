@@ -16,6 +16,10 @@ install: setup
 run:
 	venv/bin/python3 main.py
 
+# Run tests
+test:
+	venv/bin/python3 -m unittest
+
 # Clean up the virtual environment
 clean:
 	rm -rf venv

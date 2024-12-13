@@ -19,4 +19,4 @@ if __name__ == '__main__':
     print_last_30_day_rating_for_top_player(top_classical_player, history_dict)
 
     # Part 3: Create a CSV that shows the rating history for each of these 50 players, for thelast 30 days.
-    api.generate_rating_csv_for_top_50_classical_players(top_players)
+    api.generate_rating_csv_for_top_50_classical_players(top_players, 'users_rating')
