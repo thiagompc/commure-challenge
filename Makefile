@@ -1,4 +1,4 @@
-.PHONY: setup activate install run clean
+.PHONY: setup activate install run test clean
 
 # Create a virtual environment
 setup:
